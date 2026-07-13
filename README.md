@@ -24,7 +24,7 @@ data, loaded into Snowflake and modeled with XGBoost.
 4. **Modeling** (`notebooks/03_Model.ipynb`) — stratified split, XGBoost with
    class weighting, ROC/PR evaluation, feature importance
 
-## Honest limitations
+## Limitations
 - **The label is a proxy.** Public CMS data contains no denial flag; the target
   is the top quartile of charge-to-payment ratio. It captures contractual
   adjustment as well as true denials — anesthesia's dominance reflects
